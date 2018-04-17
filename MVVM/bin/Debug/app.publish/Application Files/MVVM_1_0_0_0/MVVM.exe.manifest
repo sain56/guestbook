@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MVVM.exe" version="1.0.0.0" publicKeyToken="7ab746109a35ab15" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MVVM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MVVM.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MVVM.exe" size="27136">
+      <assemblyIdentity name="MVVM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RW0sz005/o0XLTCs5Y8WJmsmkWifbxu+wsQuic018Ho=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MVVM.exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c5A1E0VFdjRrCoH30IyWh/L/VhgQ3hO9i/F+MAROEiY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SC-HL\hl" issuerKeyHash="43317cdce34d6ab2afbf1bd45a745fc68cd42fa2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UEn6yJi9vqefmLPTTCOS2y2Fx3ZYwNJ2aXrAhEl9azo=</DigestValue></Reference></SignedInfo><SignatureValue>S90IvgVDf6IUukz5IATqRvDL8Fy7/U2B0cXAfTGnB0JaIQ0a4a3ui69FYlBZgMmpbbtlWsyyyjGgl/mVpta6AbckmG0zPgf8aP5p+yfG3h1tT9Q8n2YDHp1tk7rUDFSbksUf5Xq50RusB6YOf7T/mpsEWTNNrKrxPiYjgz3JC0U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1rU9PEzLX9AOZ2XQ3iUkh77AVMf/YMtxdx1l9Tm9mM5V3F0jaDo5JQtH3W+I0J/JRUp+habPGkcOUDUIHXMqhtuBZyA5YZoK7oYahC4XvOCk0Veof5FSE1SSsgFum47pgUZK4arYoz/Q/H9z6YykPX1YityLKNzkUUwKQDxaqpE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3a6b7d4984c07a6976d2c05876c7852ddb92234cd3b3989fa7bebd98c8fa4950" Description="" Url=""><as:assemblyIdentity name="MVVM.exe" version="1.0.0.0" publicKeyToken="7ab746109a35ab15" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SC-HL\hl</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MZs4Fdgn5PJgR3BceFesNZNx6cFlQIYnmXNzSLIYw8w=</DigestValue></Reference></SignedInfo><SignatureValue>ej+g8TWsPzWRBOTqjUTgCNpId9DetFoVHQOev47tK/SBDJoz7zhsRKPMvXrUjKO0WVIMsIVulyR0hnaO7wyQg3+1J2VMHIffmYH/F1usShbJxm0APsmnMuXAwRuFRpeIkbR6wK6iCfatiY5A5epKvNGOiBmx+KV+xozLb3nwsPI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1rU9PEzLX9AOZ2XQ3iUkh77AVMf/YMtxdx1l9Tm9mM5V3F0jaDo5JQtH3W+I0J/JRUp+habPGkcOUDUIHXMqhtuBZyA5YZoK7oYahC4XvOCk0Veof5FSE1SSsgFum47pgUZK4arYoz/Q/H9z6YykPX1YityLKNzkUUwKQDxaqpE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQGDATnZV9B5ZPsCXE2B0sfjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAAUwBDAC0ASABMAFwAaABsMB4XDTE4MDQxNzEwMTIzOVoXDTE5MDQxNzE2MTIzOVowGzEZMBcGA1UEAx4QAFMAQwAtAEgATABcAGgAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1rU9PEzLX9AOZ2XQ3iUkh77AVMf/YMtxdx1l9Tm9mM5V3F0jaDo5JQtH3W+I0J/JRUp+habPGkcOUDUIHXMqhtuBZyA5YZoK7oYahC4XvOCk0Veof5FSE1SSsgFum47pgUZK4arYoz/Q/H9z6YykPX1YityLKNzkUUwKQDxaqpECAwEAATANBgkqhkiG9w0BAQsFAAOBgQC+2XTj738cN0M3yDXjobd9UibW0RCCHo6U1evqv9+Vr5jnAcMuA3iJDY0SmoYxwy8rPPK91caDwRxypqwafuDxKPrXwzkMjjeyxuDttvhW+lFg6V/wG505q2RspwnnKGgiBzae2ICBg/crcUCt7hovWHwfTaVUrFG6p8ir47WUPA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

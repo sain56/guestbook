@@ -1,0 +1,22 @@
+C:\comspace\comspace guestbook\MVVM\bin\Debug\MVVM.exe.config
+C:\comspace\comspace guestbook\MVVM\bin\Debug\MVVM.exe
+C:\comspace\comspace guestbook\MVVM\bin\Debug\MVVM.pdb
+C:\comspace\comspace guestbook\MVVM\obj\Debug\Presentation\WMain.baml
+C:\comspace\comspace guestbook\MVVM\obj\Debug\Presentation\WMain.g.cs
+C:\comspace\comspace guestbook\MVVM\obj\Debug\App.g.cs
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM_MarkupCompile.cache
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM.g.resources
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM.Properties.Resources.resources
+C:\comspace\comspace guestbook\MVVM\obj\Debug\Guestbook.csproj.GenerateResource.Cache
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM.exe
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM.pdb
+C:\comspace\comspace guestbook\MVVM\obj\Debug\Guestbook.csprojResolveAssemblyReference.cache
+C:\comspace\comspace guestbook\MVVM\obj\Debug\Presentation\Messageboard\UCMessage_AddEdit.baml
+C:\comspace\comspace guestbook\MVVM\obj\Debug\Presentation\Messageboard\UCMessage_AddEdit.g.cs
+C:\comspace\comspace guestbook\MVVM\bin\Debug\MVVM.exe.manifest
+C:\comspace\comspace guestbook\MVVM\bin\Debug\MVVM.application
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM.exe.manifest
+C:\comspace\comspace guestbook\MVVM\obj\Debug\MVVM.application
+C:\Users\hl\Source\Repos\NewRepo\guestbook\MVVM\bin\Debug\MVVM.exe.config
+C:\Users\hl\Source\Repos\NewRepo\guestbook\MVVM\obj\Debug\MVVM.exe
+C:\Users\hl\Source\Repos\NewRepo\guestbook\MVVM\obj\Debug\MVVM.pdb

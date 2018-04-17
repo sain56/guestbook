@@ -1,0 +1,52 @@
+﻿<Window x:Class="MVVM.Presentation.WMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gästebuch .comspace" Height="600" Width="800" Name="w">
+    
+    <StackPanel Orientation="Vertical">
+        
+        <StackPanel Name="c_stack_main">
+        
+        <!-- button area with commands -->
+        <StackPanel Orientation="Horizontal">
+            <Button Height="25" Width="50" Content="Add" Margin="5" 
+                    Command="{Binding p_cmd_add}" CommandParameter="{Binding ElementName=w}" />
+            <Button Height="25" Width="50" Content="Edit" Margin="5" 
+                    Command="{Binding p_cmd_edit}" CommandParameter="{Binding ElementName=w}"/>
+            <Button Height="25" Width="50" Content="Remove" Margin="5" 
+                    Command="{Binding p_cmd_remove}" CommandParameter="{Binding ElementName=w}"/>
+        </StackPanel>
+        
+        
+        <!-- data area (splitted in tabs) with bindings and observer -->
+        <TabControl HorizontalAlignment="Left" VerticalAlignment="Top" Name="c_TabControl">
+            <TabItem Header="Einträge">
+                <StackPanel Orientation="Vertical" Width="800">
+                    <DataGrid x:Name="c_dg_departments" ItemsSource="{Binding Path=p_departments, UpdateSourceTrigger=PropertyChanged}" 
+                              SelectedItem="{Binding p_selectedMessage}" AutoGenerateColumns="False" IsReadOnly="True" 
+                              VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                              SelectionMode="Extended" >
+                            <!-- datagrid doubleclickhandling -->
+                            <DataGrid.InputBindings>
+                                <MouseBinding Gesture="LeftDoubleClick" Command="{Binding p_cmd_dc}" CommandParameter="{Binding ElementName=w}"></MouseBinding>
+                            </DataGrid.InputBindings>                        
+                            <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding p_name}" Header="Name"/>
+                                <DataGridTextColumn Binding="{Binding p_message}" Header="Nachricht" Width="200"  ></DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding p_date}" Header="Datum" Width="200"  ></DataGridTextColumn>
+                            </DataGrid.Columns>
+                        
+                    </DataGrid>
+                </StackPanel>
+            </TabItem>
+           
+            
+        </TabControl>
+        
+        </StackPanel>
+        
+        <StackPanel Name="c_stack_form" Visibility="Collapsed"/>
+        
+        
+    </StackPanel>
+</Window>

@@ -1,0 +1,48 @@
+C:\Users\FG\Documents\Visual Studio 2012\Projects\MVVM\MVVM\bin\Debug\MVVM.exe.config
+S:\WS Schulung\MVVM\MVVM\bin\Debug\MVVM.exe.config
+S:\WS Schulung\MVVM\MVVM\bin\Debug\MVVM.exe
+S:\WS Schulung\MVVM\MVVM\bin\Debug\MVVM.pdb
+S:\WS Schulung\MVVM\MVVM\obj\Debug\Presentation\WMain.baml
+S:\WS Schulung\MVVM\MVVM\obj\Debug\Presentation\WMain.g.cs
+S:\WS Schulung\MVVM\MVVM\obj\Debug\App.g.cs
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.cache
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM.g.resources
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM.Properties.Resources.resources
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM.csproj.GenerateResource.Cache
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM.exe
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM.pdb
+S:\WS Schulung\MVVM\MVVM\obj\Debug\MVVM.csprojResolveAssemblyReference.cache
+S:\WS Schulung\MVVM\MVVM\obj\Debug\Presentation\Employee\UCEmployee_AddEdit.baml
+S:\WS Schulung\MVVM\MVVM\obj\Debug\Presentation\Employee\UCEmployee_AddEdit.g.cs
+C:\Users\hl\Documents\MVVM\MVVM\bin\Debug\MVVM.exe.config
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM.exe
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM.pdb
+C:\Users\hl\Documents\MVVM\MVVM\bin\Debug\MVVM.exe
+C:\Users\hl\Documents\MVVM\MVVM\bin\Debug\MVVM.pdb
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM.csprojResolveAssemblyReference.cache
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\Presentation\Employee\UCEmployee_AddEdit.baml
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\Presentation\WMain.baml
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\Presentation\Employee\UCEmployee_AddEdit.g.cs
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\Presentation\WMain.g.cs
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\App.g.cs
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.cache
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM.g.resources
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM.Properties.Resources.resources
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\MVVM.csproj.GenerateResource.Cache
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\Presentation\Department\UCDepartment_AddEdit.baml
+C:\Users\hl\Documents\MVVM\MVVM\obj\Debug\Presentation\Department\UCDepartment_AddEdit.g.cs
+C:\Neuer Ordner\MVVM\MVVM\bin\Debug\MVVM.exe.config
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM.exe
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM.pdb
+C:\Neuer Ordner\MVVM\MVVM\bin\Debug\MVVM.exe
+C:\Neuer Ordner\MVVM\MVVM\bin\Debug\MVVM.pdb
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM.csprojResolveAssemblyReference.cache
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\Presentation\Department\UCDepartment_AddEdit.baml
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\Presentation\WMain.baml
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\Presentation\Department\UCDepartment_AddEdit.g.cs
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\Presentation\WMain.g.cs
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\App.g.cs
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.cache
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM.g.resources
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM.Properties.Resources.resources
+C:\Neuer Ordner\MVVM\MVVM\obj\Debug\MVVM.csproj.GenerateResource.Cache
